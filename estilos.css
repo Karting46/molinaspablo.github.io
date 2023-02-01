@@ -1,0 +1,125 @@
+/**Esno nos permiter ver los límites de cada elemento
+*
+    {
+    outline: 1px solid red;
+    }
+*/
+*
+    {
+    box-sizing: border-box;
+    }
+*
+    {
+    font-family:'Roboto', sans-serif;
+    }
+body 
+    {
+    background-color:coral;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    }
+header 
+    {
+    display: flex;
+    background-color:firebrick;
+    padding: 5px;
+    border: 5px;
+    text-align: left;
+    }
+img 
+    {
+    margin-left: 420px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 230px;
+    height: 230px;
+    }
+h1
+    {
+    font-size: 56px;
+    color: yellow;
+    text-align: left;
+    word-spacing: 2px;
+    padding-top: 40px;
+    padding-left: 40px;
+    }
+nav 
+    {
+    display: flex;
+    background-color: yellow;
+    margin-right: 0px;
+    margin-left: 0px;
+    }
+p 
+    {
+    background-color: yellow;
+    color: firebrick;
+    font-size: 22px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    }
+h3 
+    {
+    color: firebrick;
+    }
+button  
+    {
+    background-color: firebrick;
+    color: yellow;
+    font-size: 20px;
+    border: 15px;
+    padding: 5px;
+    margin: 25px;
+    width: 200px;
+    }
+section 
+    {
+    background-color: firebrick;
+    color: yellow;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-left: 10px;
+    }
+li {
+    font-size: 18px;
+    }
+
+article 
+    {
+    margin-left: 200px;
+    margin-right: 200px;
+    }
+footer 
+    {
+    background-color: yellow;
+    font-size: 20px;
+    color: firebrick;
+    padding: 5px;
+    display: flex;
+    }
+h2.titulosecundario
+    {
+    font-size: 25px;
+    color: firebrick;
+    margin: auto;
+    }
+ul.informacionpersonal 
+    {
+    font-size: 20px;
+    color: black;
+    }
+
+#dni, #ticmas
+    {
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+    }
+li.presentacion, li.informacionpersonal, li.disponibilidad, li.estudios, li.contactos
+    {
+        display: flex;
+        float: left;
+    }
